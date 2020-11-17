@@ -1,0 +1,77 @@
+﻿@model HomeIndexVM
+
+<div class="container">
+    <div class="text-center">
+        <button class="btn btn-dark filter-product-btn" data-filter="all">All</button>
+        @foreach (var item in Model.Categories)
+        {
+            <button class="btn btn-dark filter-product-btn" data-filter="@item.CategoryName">@item.CategoryName</button>
+        }
+    </div>
+    <br />
+
+    <div class="row">
+        @foreach (var item in Model.Books)
+        {
+        <div class="col-md-6 pb-4 filter @item.Category.CategoryName">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@item.Name</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-primary">
+                    <span class="label label-primary">By: </span>
+                    <span class="monospaced">@item.NameAuthor</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="description">
+                        @item.Short_content
+                    </p>
+                </div>
+            </div>
+
+            <hr />
+
+            <ul class="list-group">
+
+                <li class="list-group-item"><span class="font-weight-bold">Publishing Year - </span>@item.Year</li>
+                <li class="list-group-item"><span class="font-weight-bold">Count - </span> @item.Count</li>
+                <li class="list-group-item"><span class="font-weight-bold">Category - </span>@item.Category.CategoryName</li>
+            </ul>
+            <br />
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+                        Read now
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+       
+
+        }
+</div>
+
+@section ScriptsValidate {
+    <script>
+        $(document).ready(function () {
+            $(".filter-product-btn").click(function () {
+                let value = $(this).attr('data-filter');
+                if (value == "all") {
+                    $(".filter").show('1000');
+                }
+                else {
+                    $(".filter").not('.' + value).hide('3000');
+                    $(".filter").filter('.' + value).show('3000');
+                }
+            })
+        })
+    </script>
+}
