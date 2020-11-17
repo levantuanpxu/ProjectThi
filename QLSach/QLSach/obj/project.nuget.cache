@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KdxLSYUY3awbyDhe47DEWCRQ0XGiy5kc3PBjj/z7QBl3GqL7A82ZIzvw/wUT3F2gV9+00O4orU4RsVJUkcQJow==",
+  "dgSpecHash": "Ynj50dcCT0+yu9hJ+gE5gCo12T7Si8gOTosZ6RyVoD4xD9jlQjH5diIwSsQdYCqwH5qysKXKAtbimSuiNq1cRQ==",
   "success": true,
-  "projectFilePath": "D:\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
+  "projectFilePath": "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LOVE\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.9\\microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",
     "C:\\Users\\LOVE\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.9.nupkg.sha512",

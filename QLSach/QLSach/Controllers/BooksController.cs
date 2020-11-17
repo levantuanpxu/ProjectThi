@@ -53,14 +53,17 @@ namespace QLSach.Controllers
 
             [HttpPost]
             public IActionResult Create(BooksCreateVM booksCreateVM)
-            {            
+            {
+            if (ModelState.IsValid)
+            {
 
-               
                 _appDbContext.Books.Add(booksCreateVM.Books);
                 _appDbContext.SaveChanges();
 
                 return RedirectToAction("Index");
             }
+            return View(booksCreateVM);
+        }
 
         public IActionResult Edit(int? id)
         {

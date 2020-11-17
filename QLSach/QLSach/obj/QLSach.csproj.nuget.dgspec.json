@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj": {}
+    "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj": {}
   },
   "projects": {
-    "D:\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj": {
+    "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
+        "projectUniqueName": "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
         "projectName": "QLSach",
-        "projectPath": "D:\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
+        "projectPath": "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\QLSach.csproj",
         "packagesPath": "C:\\Users\\LOVE\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectThi\\QLSach\\QLSach\\obj\\",
+        "outputPath": "D:\\ProjectThi\\ProjectThi\\QLSach\\QLSach\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LOVE\\AppData\\Roaming\\NuGet\\NuGet.Config",
